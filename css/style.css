@@ -193,7 +193,7 @@ td {
     font-size: 20px;
     line-height: 46px;
 }
-.last-data {
+.last-data:hover {
     background-color: #4a86d2;
 }
 .interest {
@@ -408,14 +408,133 @@ a:hover {
     justify-content: center;
     margin: 96px;
 }
-}
 
 
-/* @media  (max-width:320px) {
+@media (max-width:320px) {
+    .first-section {
+        flex-wrap: wrap;
+    }
+    .left-part-1 {
+        margin: 0;
+    }
     .automation {
-
+        font-size: 10px;
+        width: auto;
+    }
+    .automation-text {
+        max-width: 270px;
     }
     .strange-img {
-
+        max-width: 280px;
+        position: static;
+        margin-top: 40px;
+        margin-bottom: 60px;
     }
-} */
+    .second-section {
+        display: inline-block;
+        max-width: 290px;
+    }
+    .second-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .card {
+        margin: 0;
+     margin-top: 40px;
+    }
+    .card-1 {
+        padding: 0 25px;
+    }
+    .card-2 {
+        padding: 10px 25px;
+    }
+    .card-3 {
+        padding: 10px 25px;
+    }
+    .beloved-title {
+        font-size: 30px;    
+        margin-left: 15px;
+    }
+    .beloved-text {
+        max-width: 300px;
+        margin-left: 15px;
+    }
+    table {
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    td {
+        padding: 5px;
+        font-size: 9px;
+    } 
+    th {
+        padding: 5px;
+        font-size: 9px;    
+    }
+    .interest-section-1 {
+        display: inline-block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .interest-text {
+        margin: 0;
+    }
+    .interest-title {
+        font-size: 30px;
+    }
+    .country {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .about {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .follow-us {
+        margin-left: 15px;
+        margin-right: 15px;        
+    }
+    .footer-end {
+        margin-left: 15px;
+        margin-right: 15px; 
+        font-size: 15px;
+    }
+
+
+
+    .menu-form {
+        display: inline-block;
+        margin-left: 5%;
+    }
+    .contact-title {
+        font-size: 30px;
+    }   
+    .contact-text {
+        font-size: 16px;
+    }
+    .form-card {
+        padding: 20px;
+        
+    }
+    .input-form {
+        padding: 15px;
+    }
+    .input-message {
+        padding-bottom: 50px;
+    }
+    .about-form {
+        max-width: 280px;
+        margin: auto;
+    }
+    .button-send {
+        padding: 23px 90px;
+        margin-top: 50px;
+    }
+    .woman-img {
+        max-width: 280px;
+    }
+    .big-map-img {
+        max-width: 290px;
+    }
+} 

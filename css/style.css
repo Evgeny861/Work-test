@@ -1,0 +1,810 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.section-1 {
+    background: linear-gradient(0deg, #e0e8e9  8.84%, rgba(152, 195, 232, 0) 31.12%);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-section {
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.automation {
+    font-size: 58px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    width: 603px;
+    max-width: 603px;
+    
+}
+.left-part-1 {
+    margin-top: 70px;
+    margin-left: 130px;
+}
+.strange-img {
+    position: relative;
+    z-index: 1;
+    left: -80px;
+    margin-bottom: 98px;
+}
+.automation-text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    display: flex;
+    
+}
+.automation-button {
+    margin-top: 41px;
+    padding: 15px 48px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.buttons {
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    border:none;
+    color:#fff;
+}
+.menu-link {
+    text-decoration: none;
+}
+.menu-btn {
+    font-size: 23px;
+    color: #356EAD;
+}
+.second-section {
+    display: flex;
+    padding-top: 129px;
+    justify-content: space-around;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 212px;
+}
+.second-title {
+    display: inline-block;
+}
+.card {
+    border: 1px solid white;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    display: flex;
+    justify-content: center;
+    
+}
+.card-1 {
+    padding: 0px 42px 48px 48px;
+}
+.second-title {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #316099;
+}
+.cartoon-man {
+    margin-top: -30px;
+}
+.vector {
+    margin: 30px 0 30px 24px;
+}
+.card-title {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #1F3F68;
+}
+.card-text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #327bd8;
+}
+.card-link {
+    display: flex;
+    align-items: center;
+    text-decoration: non10;
+}
+.vector {
+    margin: 30px 0 30px 24px;
+}
+.card-2 {
+    padding: 48px 42px 48px 48px;
+    margin-top: -175px;
+    display: inline-table;
+    margin-left: 60px;
+}
+.card-3 {
+
+    padding: 48px 42px 48px 48px;
+
+    margin-top: 100px;
+    margin-right: 25px;
+}
+.beloved {
+    background-color: #5A98D0;
+    border-top-left-radius: 200px;
+    color: #fff;
+}
+.container-beloved {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 96px;
+    
+}
+.beloved-title {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+}
+.beloved-text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #6bc5d0;
+    margin-left: 97px;
+}
+
+table { 
+    border-collapse: collapse; 
+    text-align: center;
+    margin-top: 123px;
+    margin-bottom: 125px;
+}
+.first-row {
+    border-bottom: 1px solid #d2a8a8;
+}
+th {  
+    padding: 40px; 
+    border-left: 1px solid #d2a8a8;
+    border-right: 1px solid #d2a8a8;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 46px;
+}
+td { 
+    padding: 40px;
+    font-size: 20px;
+    line-height: 46px;
+}
+.last-data:hover {
+    background-color: #4a86d2;
+}
+.interest {
+    border-top-right-radius: 200px;
+    max-width: 95%;
+    background-color: #316099;
+    color: #fff;
+}
+.interest-section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 91px;
+    padding-bottom: 96px;
+    border-bottom: 1px solid #d2a8a8;
+    max-width: 1070px;
+}
+.interest-text , .country {
+    margin-left: 30%
+}
+.interest-text {
+    max-width: 460px;
+}
+.interest-title {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    font-weight: 400; 
+}
+.interest-small {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #6bc5d0;
+}
+.interest-section-2 {
+    margin-top: 97px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1070px;
+    font-weight: 1;
+    display: flex;
+    align-items: baseline;
+}
+.parent-title {
+    display: flex;
+    align-items: center;
+}
+.footer-logo { 
+    width: 50px;
+    height: 30px;
+}
+.list-1 {
+    display: flex;
+    align-items: baseline;
+}
+.country-title   {
+    margin: 0;
+    margin-left: 15px;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    font-weight: normal;
+}
+.footer-ul {
+    list-style-type: none;
+}
+.text-footer {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    padding: 0;
+}
+.about {
+    margin-left: 100px;
+    margin-right: 75px;
+}
+.about-title {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+}  
+.footer-end {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #6bc5d0;
+    margin-left: 30%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.list {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    max-width: 300px;
+}
+.letter {
+    display: inline-block;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.follow-link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    background: yellow; 
+    color: black;
+}
+
+
+
+
+.menu-contact {
+    background: url(../img/MaskGroup.png) no-repeat ;
+    background-size: cover;
+}
+
+.contact-title {
+    padding-top: 51px;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+.contact-text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.form-card {
+    padding: 56px;
+}
+.menu-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 57px;
+}
+.about-form {
+    max-width: 310px;
+    margin-top: 120px;
+    margin-right: 80px;
+}
+
+.above-input {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    color: #7d7dc1;
+}
+.input-form {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 21px 43px ;
+    width: 100%;
+    display: flex;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+    color: #1F3F68;
+    opacity: 0.2;
+}
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #1F3F68;
+    opacity: 0.2;
+}
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #1F3F68;
+    opacity: 0.2;
+}
+  :-moz-placeholder { /* Firefox 4 - 18 */
+    color: #1F3F68;
+    opacity: 0.2;
+}
+.button-send {
+    padding: 23px 180px;
+    margin-top: 72px;
+}
+.input-message {
+    padding-bottom: 93px;
+}
+.phone-title {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    font-weight: 700;
+}
+.number {
+    display: flex;
+    align-items: center;
+    opacity: 0.6;
+}
+.phone {
+    margin-right: 16px;
+}
+.big-map {
+    display: flex;
+    justify-content: center;
+    margin: 96px;
+}
+
+
+
+
+@media (max-width:767px) {
+    .first-section {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding-bottom: 40px;
+    }
+    .left-part-1 {
+        margin: 0;
+    }
+    .automation {
+        font-size: 20px;
+        width: auto;
+        line-height: 35px;
+    }
+    .strange-img {
+        max-width: 280px;
+        position: static;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .second-section {
+        padding-top: 60px;
+    }
+    .second-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .card {
+        margin: 0;
+     margin-top: 40px;
+    }
+    .card-1 {
+        padding: 0 25px;
+    }
+    .card-2 {
+        padding: 10px 25px;
+    }
+    .card-3 {
+        padding: 10px 25px;
+    }
+    .beloved-title {
+        font-size: 30px;    
+        margin-left: 15px;
+    }
+    .container-beloved {
+        margin-left: 45px;
+    }
+    .beloved-text {
+        max-width: 300px;
+        margin-left: 15px;
+    }
+    table {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    td {
+        padding: 10px;
+        font-size: 9px;
+    } 
+    th {
+        padding: 10px;
+        font-size: 9px;    
+    }
+    .interest-section-1 {
+        display: inline-block;
+        margin-right: 15px;
+        max-width: 380px;
+    }
+    .interest-text {
+        margin-left: 45px;
+    }
+    .automation-button {
+        margin-left: 45px;
+    }
+    .interest-title {
+        font-size: 30px;
+    }
+    .interest-section-2 {
+        margin-left: 45px;
+    }
+    .country {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .about {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .follow-us {
+        margin-left: 15px;
+        margin-right: 15px;        
+    }
+    .footer-end {
+        margin-left: 15px;
+        margin-right: 15px; 
+        font-size: 15px;
+    }
+
+
+
+    .menu-form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-title {
+        font-size: 30px;
+    }   
+    .contact-text {
+        font-size: 16px;
+    }
+    .input-form {
+        padding: 15px;
+    }
+    .input-message {
+        padding-bottom: 50px;
+    }
+    .about-form {
+        max-width: 280px;
+        margin: auto;
+    }
+    .button-send {
+        padding: 23px 90px;
+        margin-top: 50px;
+    }
+    .woman-img {
+        max-width: 280px;
+    }
+    .big-map-img {
+        max-width: 380px;
+    }
+} 
+
+
+
+
+ @media (max-width:479px) {
+    .first-section {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding-bottom: 40px;
+    }
+    .left-part-1 {
+        margin: 0;
+    }
+    .automation {
+        font-size: 20px;
+        width: auto;
+        line-height: 35px;
+    }
+    .strange-img {
+        max-width: 280px;
+        position: static;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .second-section {
+        padding-top: 60px;
+    }
+    .second-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .card {
+        margin: 0;
+     margin-top: 40px;
+    }
+    .card-1 {
+        padding: 0 25px;
+    }
+    .card-2 {
+        padding: 10px 25px;
+    }
+    .card-3 {
+        padding: 10px 25px;
+    }
+    .beloved-title {
+        font-size: 30px;    
+        margin-left: 15px;
+    }
+    .container-beloved {
+        margin-left: 45px;
+    }
+    .beloved-text {
+        max-width: 300px;
+        margin-left: 15px;
+    }
+    table {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    td {
+        padding: 10px;
+        font-size: 9px;
+    } 
+    th {
+        padding: 10px;
+        font-size: 9px;    
+    }
+    .interest-section-1 {
+        display: inline-block;
+        margin-right: 15px;
+        max-width: 380px;
+    }
+    .interest-text {
+        margin-left: 45px;
+    }
+    .automation-button {
+        margin-left: 45px;
+    }
+    .interest-title {
+        font-size: 30px;
+    }
+    .interest-section-2 {
+        margin-left: 45px;
+    }
+    .country {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .about {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .follow-us {
+        margin-left: 15px;
+        margin-right: 15px;        
+    }
+    .footer-end {
+        margin-left: 15px;
+        margin-right: 15px; 
+        font-size: 15px;
+    }
+
+
+
+    .menu-form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-title {
+        font-size: 30px;
+    }   
+    .contact-text {
+        font-size: 16px;
+    }
+    .input-form {
+        padding: 15px;
+    }
+    .input-message {
+        padding-bottom: 50px;
+    }
+    .about-form {
+        max-width: 280px;
+        margin: auto;
+    }
+    .button-send {
+        padding: 23px 90px;
+        margin-top: 50px;
+    }
+    .woman-img {
+        max-width: 280px;
+    }
+    .big-map-img {
+        max-width: 380px;
+    }
+} 
+
+
+
+ @media (max-width:320px) {
+    .first-section {
+        flex-wrap: wrap;
+    }
+    .left-part-1 {
+        margin: 0;
+    }
+    .automation {
+        font-size: 10px;
+        width: auto;
+    }
+    .automation-text {
+        max-width: 270px;
+    }
+    .strange-img {
+        max-width: 280px;
+        position: static;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .second-section {
+        display: inline-block;
+        max-width: 290px;
+    }
+    .second-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .card {
+        margin: 0;
+     margin-top: 40px;
+    }
+    .card-1 {
+        padding: 0 25px;
+    }
+    .card-2 {
+        padding: 10px 25px;
+    }
+    .card-3 {
+        padding: 10px 25px;
+    }
+    .beloved-title {
+        font-size: 30px;    
+        margin-left: 15px;
+    }
+    .beloved-text {
+        max-width: 300px;
+        margin-left: 15px;
+    }
+    table {
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    td {
+        padding: 5px;
+        font-size: 9px;
+    } 
+    th {
+        padding: 5px;
+        font-size: 9px;    
+    }
+    .interest-section-1 {
+        display: inline-block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .interest-text {
+        margin: 0;
+    }
+    .interest-title {
+        font-size: 30px;
+    }
+    .country {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .about {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .follow-us {
+        margin-left: 15px;
+        margin-right: 15px;        
+    }
+    .footer-end {
+        margin-left: 15px;
+        margin-right: 15px; 
+        font-size: 15px;
+    }
+
+
+
+    .menu-form {
+        display: inline-block;
+        margin-left: 5%;
+    }
+    .contact-title {
+        font-size: 30px;
+    }   
+    .contact-text {
+        font-size: 16px;
+    }
+    .form-card {
+        padding: 20px;
+        
+    }
+    .input-form {
+        padding: 15px;
+    }
+    .input-message {
+        padding-bottom: 50px;
+    }
+    .about-form {
+        max-width: 280px;
+        margin: auto;
+    }
+    .button-send {
+        padding: 23px 90px;
+        margin-top: 50px;
+    }
+    .woman-img {
+        max-width: 280px;
+    }
+    .big-map-img {
+        max-width: 290px;
+    }
+}   
